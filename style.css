@@ -5,7 +5,7 @@
   font-family: antaro;
 }
 body {
-  background-color: #675bc8;
+  background-color: #9e95e6;
 }
 body > div {
   width: 430px;
@@ -24,19 +24,19 @@ body > div::before {
   position: absolute;
   border-radius: 50%;
 }
-bodu > div::after {
-  background: linear-gradient(135deg, #a88beb, #f8cee8);
+body > div::after {
+  background: linear-gradient(135deg, #117e94, #73edf8);
   left: -80px;
   top: -80px;
 }
 body > div::before {
-  background: linear-gradient(135deg, #80ff72, #7ee8fa);
+  background: linear-gradient(135deg, #51f63f, #7ee8fa);
   right: -30px;
   bottom: -80px;
 }
 form {
   width: 400px;
-  height: 520px;
+  height: 580px;
   background-color: rga(255, 255, 255, 0.13);
   position: absolute;
   transform: translate(-50%, -50%);
@@ -44,7 +44,7 @@ form {
   left: 50%;
   border-radius: 10%;
   backdrop-filter: blur(10px);
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 3px solid rgba(132, 9, 247, 0.475);
   box-shadow: 0 0 40px rgba(7, 8, 1, 6, 0.6);
   padding: 50px;
   color: azure;
@@ -56,7 +56,10 @@ form* {
 
 form h3 {
   text-align: center;
-  font-size: 32px;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 0.15em;
+  color: #000000;
   font-weight: 500;
 }
 label {
@@ -77,13 +80,13 @@ input {
   font-weight: 400;
 }
 ::placeholder {
-  color: #e5e5e5;
+  color: #878080;
 }
 button {
   width: 100%;
   margin-top: 50px;
   background-color: #ffffff;
-  color: #080710;
+  color: #620793;
   padding: 12px 0;
   font-size: 18px;
   font-weight: 600;
@@ -100,11 +103,12 @@ form .options div {
   padding: 5px 10px 10px 5px;
   text-align: center;
   cursor: pointer;
-  color: azure;
+  color: rgb(255, 255, 255);
   background-color: #d0c2c245;
 }
 form .options div:last-child {
   margin-left: 25px;
+  padding: 15px;
   font-weight: bold;
   color: #000000;
 }
